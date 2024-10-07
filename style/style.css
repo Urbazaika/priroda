@@ -41,7 +41,7 @@
 .sideBox {
 	display: flex;
 	align-items: center;
-	gap: 10px;
+	gap: 30px;
 	color: white;
 	font-weight: 600;
 	font-size: 18px;
@@ -86,6 +86,7 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	flex-direction: column;
 }
 .preview_bg {
 	width: 100%;
@@ -93,11 +94,54 @@
 	left: 0;
 	top: 0;
 }
+
+.lineYellow {
+	display: block;
+	width: 72px;
+	height: 2px;
+	z-index: 5;
+	background: yellow;
+	/* left: 0; */
+	/* position: absolute; */
+	/* transform: rotate(90deg); */
+}
+
 .preview_content {
+	display: flex;
+	align-items: center;
+	gap: 20px;
 	position: relative;
 	z-index: 5;
 	max-width: 950px;
+	color: yellow;
+	width: 100%;
+	font-weight: 100;
+	letter-spacing: 10px;
 }
+
+.preview_content2 {
+	position: relative;
+	z-index: 5;
+	max-width: 950px;
+	color: white;
+	margin-top: 32px;
+	font-size: 80px;
+	font-weight: 500;
+}
+
+.preview_content3 {
+	display: flex;
+	gap: 15px;
+	position: relative;
+	z-index: 5;
+	max-width: 950px;
+	color: white;
+	margin-top: 30px;
+	font-size: 20px;
+	width: 100%;
+	font-weight: 700;
+}
+
 .firstList {
 	position: relative;
 	height: 60vh;
@@ -134,4 +178,9 @@
 	display: flex;
 	align-items: center;
 	gap: 15px;
+}
+
+.icons {
+	transform-origin: center ;
+	transform: rotate(-90deg);
 }
