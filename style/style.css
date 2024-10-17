@@ -145,7 +145,7 @@
 
 .firstList {
 	position: relative;
-	height: 60vh;
+	height: 600px;
 	/* width: 100vw; */
 }
 
@@ -161,12 +161,12 @@
 	z-index: 1;
 }
 .fr2 {
-	top: 450px;
+	top: 10vw;
 	z-index: 2;
 }
 
 .fr3 {
-	top: 750px;
+	top: 35vw;
 	z-index: 3;
 }
 .fr4 {
@@ -204,7 +204,7 @@
 	/* height: 1000px; */
 	position: relative;
 	z-index: 5;
-	margin-top: 300px;
+	margin-top: -1vw;
 	padding-top: 120px;
 }
 
@@ -289,9 +289,9 @@
 	transform-origin: center;
 }
 
-.dad {
+.dead {
 	display: flex;
-	justify-content: space-between;
+	justify-content: space-evenly;
 	/* gap: 300px; */
 	width: 100%;
 }
@@ -307,7 +307,7 @@
 }
 .img1 {
 	width: 566px;
-	height: 720px;
+	/* height: 720px; */
 }
 
 .noStarted {
@@ -377,4 +377,272 @@
 
 .navWrapper {
 }
-@media (max-width: );
+@media (max-width: 1500px) {
+	.preview_content2 {
+		font-size: 50px;
+		font-weight: 5px;
+	}
+	.preview_wrapper {
+		width: 610px;
+	}
+	.img1 {
+		/* height: 400px;
+		width: 300px; */
+		/* width: 100%; */
+		width: 100%;
+		display: block;
+	}
+
+	.fr2 {
+		top: 40%;
+	}
+	.fr3 {
+		top: 75%;
+	}
+	.img1 {
+		height: 500px;
+		width: 400px;
+		margin-top: 20px;
+		/* width: 100%; */
+		/* width: 100%; */
+	}
+
+	.started {
+		margin-top: -5vw;
+		/* padding-top: 20vh; */
+	}
+	.dead {
+		padding: 40px 100px;
+	}
+
+	.footer {
+		padding: 10px 200px;
+	}
+
+	.navWrapper {
+		list-style: none;
+		text-decoration: none;
+	}
+	.textEnd2 {
+		width: 250px;
+	}
+	.textEnd3 {
+		width: 250px;
+	}
+}
+@media (max-width: 1300px) {
+	.preview_content2 {
+		font-size: 50px;
+		font-weight: 5px;
+	}
+	.preview_wrapper {
+		width: 610px;
+	}
+	.img1 {
+		/* height: 400px;
+		width: 300px; */
+		/* width: 100%; */
+		width: 100%;
+		display: block;
+	}
+
+	.fr2 {
+		top: 40%;
+	}
+	.fr3 {
+		top: 75%;
+	}
+	.img1 {
+		height: 400px;
+		width: 300px;
+		margin-top: 80px;
+		/* width: 100%; */
+		/* width: 100%; */
+	}
+	.dead {
+		/*flex-direction: column-reverse;
+		align-items: center;*/
+		padding: 30px 100px;
+	}
+	.started {
+		margin-top: -20vw;
+	}
+
+	.wrapper {
+		padding-left: 70px;
+	}
+	.wrapper .text2 {
+		font-size: 30px;
+		width: 300px;
+	}
+	.wrapper .Text1 {
+		font-size: 200px;
+	}
+
+	.wrapper .preview_content55 {
+		font-size: 15px;
+	}
+	.wrapper .text3 {
+		font-size: 15px;
+		width: 400px;
+	}
+	.wrapper .text4 {
+		font-size: 15px;
+	}
+	.wrapper .lineYellow {
+		width: 40px;
+	}
+	.footer {
+		padding: 10px 160px;
+		gap: 40px;
+	}
+}
+
+@media (max-width: 1000px) {
+	.started {
+		margin-top: -1vw;
+		/* padding-top: 20vh; */
+	}
+	.img1 {
+		height: 600px;
+		width: 500px;
+		/* width: 100%; */
+		/* width: 100%; */
+	}
+	.preview {
+		height: 500px;
+	}
+	.preview_wrapper {
+		margin-top: 50px;
+	}
+	.dead {
+		margin-top: -100px;
+	}
+	.allCards {
+		margin-top: 300px;
+	}
+}
+
+@media (max-width: 900px) {
+	.fr2 {
+		top: 30%;
+	}
+	.fr3 {
+		top: 40%;
+	}
+	.started {
+		margin-top: -1000vw;
+		/* padding-top: 20vh; */
+		box-sizing: border-box;
+	}
+	.img1 {
+		height: 600px;
+		width: 500px;
+		/* width: 100%; */
+		/* width: 100%; */
+	}
+	.preview {
+		height: 500px;
+	}
+	.preview_wrapper {
+		margin-top: 50px;
+	}
+	.dead {
+		margin-top: -50px;
+	}
+	.allCards {
+		margin-top: 300px;
+	}
+	.started {
+		margin-top: -22vw;
+		/* padding-top: 20vh; */
+		box-sizing: border-box;
+	}
+}
+@media (max-width: 800px) {
+	.fr2 {
+		top: 30%;
+	}
+	.fr3 {
+		top: 40%;
+	}
+	.started {
+		margin-top: -30vw;
+		/* padding-top: 20vh; */
+		box-sizing: border-box;
+	}
+}
+@media (max-width: 700px) {
+	.fr2 {
+		top: 30%;
+	}
+	.fr3 {
+		top: 40%;
+	}
+	.started {
+		margin-top: -35vw;
+		/* padding-top: 20vh; */
+		box-sizing: border-box;
+	}
+}
+
+@media (max-width: 425px) {
+	.fr2 {
+		top: 54%;
+		width: 425px;
+	}
+	.fr3 {
+		top: 80%;
+	}
+	.fr4 {
+		height: 500px;
+	}
+	.header_content {
+		padding: 30px 20px;
+		display: flex;
+		justify-content: space-between;
+		color: white;
+		font-size: 20px;
+	}
+	.logoOne {
+		font-family: serif;
+		font-size: 30px;
+		left: 0;
+	}
+	.nav_list {
+		display: none;
+	}
+	.lineYellow {
+		display: block;
+		width: 30px;
+		height: 2px;
+		z-index: 5;
+		background: yellow;
+	}
+
+	.preview_content {
+		display: flex;
+		align-items: center;
+		gap: 20px;
+		position: relative;
+		z-index: 5;
+		max-width: 425px;
+		color: yellow;
+		width: 100%;
+		font-weight: 100;
+		letter-spacing: 5px;
+		font-size: 10px;
+	}
+
+	.preview_content2 {
+		font-size: 30px;
+		font-weight: 5px;
+	}
+
+	.preview {
+		height: 550px;
+	}
+	.preview_content {
+		margin-top: -100px;
+	}
+}
